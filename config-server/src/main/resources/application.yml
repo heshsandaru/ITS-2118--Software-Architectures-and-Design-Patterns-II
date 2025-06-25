@@ -9,8 +9,8 @@ spring:
     config:
       server:
         git:
-#          uri: -------- add this place your github repo link-------
-          default-label: main
+          uri: https://github.com/heshsandaru/ITS-2118--Software-Architectures-and-Design-Patterns-II.git
+          default-label: master
           search-paths:
             - .
           clone-on-start: true

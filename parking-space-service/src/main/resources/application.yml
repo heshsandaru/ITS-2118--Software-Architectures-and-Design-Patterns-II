@@ -3,7 +3,7 @@ spring:
     name: parking-space-service
 
   datasource:
-    url: jdbc:mysql://localhost:3306/parking_service
+    url: jdbc:mysql://localhost:3306/parking_service?createDatabaseIfNotExist=true
     username: root
     password: Ijse@123
   jpa:
